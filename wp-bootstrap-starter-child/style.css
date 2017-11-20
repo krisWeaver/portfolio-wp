@@ -1,0 +1,63 @@
+/*
+Theme Name: Kris Weaver Designs
+Theme URI: https://afterimagedesigns.com/wp-bootstrap-starter/
+Template: wp-bootstrap-starter
+Author: Kris Weaver Designs
+Author URI: https://krisweaverdesigns.com
+Description: Kris Weaver Designs theme
+Version: 1.0.1511079942
+Updated: 2017-11-19 08:25:42
+
+*/
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Teko:400,500,600,700');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 800;
+}
+
+/* General Styles */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+/* ------- */
+/* Header */
+/* ----- */
+
+/* Logo Area */
+
+.navbar-brand > a {
+    font-size: 2em;
+    font-family: 'Teko', sans-serif;
+    font-weight: 800;
+    color: #BEE0EA;
+}
+
+
+/* Nav */
+
+header#masthead {
+    background-color: #2f4259;
+    border-bottom: #2f4259;
+}
+
+#masthead .navbar-nav > li > a {
+    color: #BEE0EA;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+#masthead .navbar-nav > li > a:hover {
+    color: #fff;
+}
