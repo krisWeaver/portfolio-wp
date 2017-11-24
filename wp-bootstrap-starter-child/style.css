@@ -22,6 +22,7 @@ h5,
 h6 {
     font-family: 'Teko', sans-serif;
     font-weight: 800;
+    color: #2f4259;
 }
 
 /* General Styles */
@@ -60,4 +61,47 @@ header#masthead {
 
 #masthead .navbar-nav > li > a:hover {
     color: #fff;
+}
+
+
+/* HomePage */
+
+.home #content.site-content {
+    background-color: #2f4259;
+}
+
+.home-title {
+    font-family: 'Teko', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 3em;
+    color: #BEE0EA;
+}
+
+.home-icon {
+    font-size: 6em;
+    text-align: center;
+    color: #BEE0EA;
+}
+
+
+/* 404 */
+
+.error-title {
+    font-family: 'Teko', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 3em;
+    color: #2f4259;
+}
+
+.error-text {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.error-icon {
+    font-size: 6em;
+    text-align: center;
+    color: #2f4259;
 }
