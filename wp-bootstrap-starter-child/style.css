@@ -10,6 +10,10 @@ Updated: 2017-11-19 08:25:42
 
 */
 
+/* --------------- */
+/* General Styles */
+/* ------------- */
+
 /* Fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Teko:400,500,600,700');
@@ -25,11 +29,17 @@ h6 {
     color: #2f4259;
 }
 
-/* General Styles */
+h1.entry-title {
+    font-size: 28px;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
+}
+
+a {
+    color: #558c9e;
 }
 
 /* ------- */
@@ -37,6 +47,11 @@ body {
 /* ----- */
 
 /* Logo Area */
+
+a.site-title,
+.site-description {
+    color: #BEE0EA !important;
+}
 
 .navbar-brand > a {
     font-size: 2em;
@@ -57,14 +72,46 @@ header#masthead {
     color: #BEE0EA;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    padding: 1em;
 }
 
 #masthead .navbar-nav > li > a:hover {
     color: #fff;
+    font-weight: 400;
+    text-decoration: underline;
 }
 
 
+/* -------- */
+/* Sidebar */
+/* ------ */
+
+#custom_html-2 {
+    font-size: 18px;
+}
+
+
+/* ------- */
+/* Footer */
+/* ----- */
+
+footer#colophon {
+    background-color: #2f4259;
+    color: #BEE0EA;
+}
+
+.site-info {
+    font-size: 18px;
+    text-align: center;
+}
+
+.site-info a {
+    font-size: 18px;
+}
+
+/* --------- */
 /* HomePage */
+/* ------- */
 
 .home #content.site-content {
     background-color: #2f4259;
@@ -85,7 +132,46 @@ header#masthead {
 }
 
 
+/* ------------------------ */
+/* Ninja Form / Contact Me */
+/* ---------------------- */
+
+.field-wrap button,
+.field-wrap input[type=button],
+.field-wrap input[type=submit] {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    background-color: #28a745;
+    color: #fff;
+}
+
+.field-wrap button:hover,
+.field-wrap input[type=button]:hover,
+.field-wrap input[type=submit]:hover {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    background-color: #10c73a;
+    color: #fff;
+}
+
+
+/* ---------- */
+/* Thank You */
+/* -------- */
+
+.thumbs-up {
+    text-align: center;
+    color: #2f4259;
+}
+
+
+/* ---- */
 /* 404 */
+/* -- */
 
 .error-title {
     font-family: 'Teko', sans-serif;
