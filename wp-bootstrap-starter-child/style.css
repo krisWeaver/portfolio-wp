@@ -30,7 +30,12 @@ h6 {
 }
 
 h1.entry-title {
+    font-size: 36px;
+}
+
+h3 {
     font-size: 28px;
+    line-height: 28px;
 }
 
 body {
@@ -79,6 +84,25 @@ header#masthead {
     color: #fff;
     font-weight: 400;
     text-decoration: underline;
+}
+
+
+/* ---------- */
+/* Home Page */
+/* -------- */
+
+.home #content.site-content {
+    padding-bottom: 0;
+}
+
+.home-blog {
+    background-color: #fff;
+    padding-top: 5em;
+    padding-bottom: 6em;
+}
+
+.icons {
+    padding-bottom: 3em;
 }
 
 
@@ -158,6 +182,23 @@ footer#colophon {
     color: #fff;
 }
 
+
+/* ---------- */
+/* Portfolio */
+/* -------- */
+
+.portfolio-button {
+    text-align: center;
+}
+
+.portfolio-button .btn-primary {
+    background-color: #558c9e;
+    border: 0;
+}
+
+.portfolio-button .btn-primary:hover {
+    background-color: #0056b3;
+}
 
 /* ---------- */
 /* Thank You */

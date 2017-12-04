@@ -13,7 +13,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<header class="page-header">
-				<h1>Hi Friend</h1>
+				<h1>My Portfolio</h1>
 			</header><!-- .page-header -->
 
 			<?php
@@ -23,21 +23,30 @@ get_header(); ?>
 				);
 
 				$the_query = new WP_Query( $args );
-
 				if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
 			?>
 
-				<h3><?php the_title(); ?></h3>
-
-				<?php
+			<?php
 
 				$image = get_field('logo');
 
-				if( !empty($image) ): ?>
+					if( !empty($image) ): ?>
 
-					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 
-				<?php endif; ?>
+					<?php endif; ?>
+
+				<div class="row">
+
+					<div class="col-md-6 portfolio-button">
+						<button type="button" class="btn btn-primary">Visit Site</button>
+					</div>
+
+					<div class="col-md-6 portfolio-button">
+						<button type="button" class="btn btn-primary">View Project</button>
+					</div>
+
+				</div>
 
 			<?php endwhile; else: ?>
 					<p><?php _e('Sorry, no content available'); ?></p>
