@@ -182,6 +182,15 @@ footer#colophon {
     color: #fff;
 }
 
+.nf-field-element input,
+.nf-field-element select,
+.nf-field-element textarea {
+    border-radius: 5px;
+    border-color: #b4b4b4;
+    border-width: 1px;
+    border-style: solid;
+}
+
 
 /* ---------- */
 /* Portfolio */

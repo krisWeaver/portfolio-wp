@@ -22,7 +22,7 @@ get_header(); ?>
 		</div>
 
 		<div class="col-md-4 icons">
-			<a href="https://krisweaverdesigns.com/portfolio/">
+			<a href="https://krisweaverdesigns.com/my-portfolio/">
 				<div class="home-title">
 					My Portfolio
 				</div>

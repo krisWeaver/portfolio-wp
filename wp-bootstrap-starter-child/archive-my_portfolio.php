@@ -20,7 +20,7 @@ get_header(); ?>
 			<?php
 				$args = array(
 						 'post_type' => 'my_portfolio',
-					'posts_per_page' => 6,
+					'posts_per_page' => 8,
 				);
 
 				$portfolioNumber = 0;
@@ -33,7 +33,7 @@ get_header(); ?>
 
 					<?php
 						if ( $portfolioNumber > 1 ) {
-							echo "<div class='col-md-6'>";					
+							echo "<div class='col-md-6'>";
 						} else {
 							echo "<div class='row portfolio-row'>";
 							echo "<div class='col-md-6 separator'>";
