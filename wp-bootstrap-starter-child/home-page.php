@@ -54,6 +54,11 @@ get_header(); ?>
 	<section>
 		<div class="row">
 			<div class="col-md-8 offset-md-2">
+				<h2>Latest Blog Article</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8 offset-md-2">
 			<?php
 				$args = array(
 						 'post_type' => 'post',
