@@ -21,7 +21,7 @@ get_header(); ?>
                     <div class="row">
                         <?php the_field('description'); ?>
                     </div>
-                    <div class="row">
+                    <div class="row portfolio-buttons-row">
                         <div class="col-md-6 portfolio-button">
                             <a href="<?php echo get_field('work_link');?>" target="_blank" class="btn btn-primary">View Website</a>
                         </div>
@@ -30,7 +30,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div><!-- End Col Md 5 -->
-                
+
                 <div class="col-md-7">
                     <?php
                     $image = get_field('portfolio_screen_shot');
